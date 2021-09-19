@@ -1,0 +1,435 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+}
+
+.main-container{
+    background-color: rgb(255, 250, 208);
+    width: 100%;
+}
+
+@media screen and (max-width:960px){
+    .nav-bar{
+        padding-right: 35px !important;
+    }
+}
+
+.nav-bar{
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 50px 70px 0px 70px;
+}
+
+@media screen and (max-width:950px){
+    .navbar-header {
+        display: none !important;
+    }
+}
+
+.navbar-header{
+    display: flex;
+}
+
+.home{
+    font-size: 30px;
+    padding-right: 70px;
+    color: rgba(152, 14, 233, 0.973);
+    font-weight: bold;
+}
+
+.heading{
+    font-size: 30px;
+    padding-right: 90px;
+    color: rgba(152, 14, 233, 0.973);
+}
+
+@media screen and (max-width:950px){
+    .nav-bar{
+        justify-content: flex-end !important;
+    }
+}
+
+.shop{
+    height: 60px;
+    width: 60px;
+    
+}
+
+@media screen and (max-width:950px){
+     .miss-cupcake{
+         width: 100% !important;
+         padding-top: 0px !important;
+     }
+}
+
+.miss-cupcake{
+    padding:120px 0px 50px 0px;
+    width: 80%;
+    display: flex;
+}
+
+@media screen and (max-width:950px){
+    .text{
+        padding-left: 15% !important;
+    }
+}
+
+.text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+}
+
+@media screen and (max-width:960px) {
+    .cake{
+        font-size: 60px !important;
+         width: 200px !important;
+    }
+}
+
+.cake{
+    font-size: 90px;
+    font-family: 'Anton', sans-serif;
+    font-weight: bolder;  
+    width: 100%;
+    color:rgba(152, 14, 233, 0.973);
+}
+
+@media screen and (max-width:960px) {
+    .intro{
+        font-size: 20px !important;
+        width: 400px !important;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .intro{
+        font-size: 15px !important;
+        width: 250px !important;
+    }
+}
+
+.intro{
+    font-size: 30px;
+    color:rgba(152, 14, 233, 0.973);
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+}
+
+@media screen and (max-width:960px){
+     .shop-now{
+         padding: 10px 40px 10px 40px !important;
+     }
+}
+
+.shop-now{
+    border: none;
+    background-color: rgb(135, 4, 168);
+    color: wheat;
+    padding: 20px 70px 20px 70px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:960px) {
+    .cup-cake{
+        display: none;
+    }
+}
+
+.cup-cake{
+    width: 40%;
+}
+
+.cup-cake-icon{
+    width: 365px;
+    height: 740px;
+}
+
+@media screen and (min-width:960px){
+    .tree-cake{
+        display: none !important;
+    }
+}
+
+.tree-cake{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cup-cakes{
+     width: 200px;
+     height: 400px;
+}
+
+.second-container{
+    background-color: blueviolet;
+    padding:120px 0px 250px 0px;
+    width: 100%;
+}
+
+
+
+@media screen and (max-width:960px){
+    .celebrating-the-little-thing{
+        width: 90% !important;
+        font-size: 50px !important;
+    }
+}
+
+@media screen and (max-width:560px){
+    .celebrating-the-little-thing{
+        width: 90% !important;
+        font-size: 30px !important;
+    }
+}
+
+.celebrating-the-little-thing{
+    font-size: 90px;
+    font-family: 'Anton', sans-serif;
+    font-weight: bolder;  
+    color:white;
+    padding-left: 10%;
+    width: 80%;
+}
+
+@media screen and (max-width:960px){
+    .frist-line{
+        width: 80% !important;
+        font-size: 30px !important;
+    }
+}
+
+@media screen and (max-width:560px){
+    .frist-line{
+        width: 80% !important;
+        font-size: 15px !important;
+    }
+}
+
+.frist-line{
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 10%;
+    color:white;
+    width: 80%;
+}
+.third-container{
+    background-color: rgb(255, 250, 208);
+    width: 100%;
+    min-height: 100vh;
+} 
+.miss-cupcakes{
+    padding-left: 10%;
+    display: flex;
+}
+
+.the-simple{
+    background-color: rgb(255, 250, 208);
+    width: 70%;
+}
+
+@media screen and (max-width:960px){
+    .sweet-life{
+        width: 60% !important;
+        font-size: 50px !important;
+    }
+    .cup-cakes{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:560px){
+    .sweet-life{
+        width: 90% !important;
+        font-size: 30px !important;
+    }
+}
+
+.sweet-life{
+    font-size: 90px;
+    width: 70%;
+    color:rgba(152, 14, 233, 0.973);
+    padding-top: 100px;
+}
+
+@media screen and (max-width:960px){
+    .offer{
+        width: 80% !important;
+        font-size: 35px !important;
+    }
+}
+
+@media screen and (max-width:560px){
+    .offer{
+        width: 80% !important;
+        font-size: 20px !important;
+    }
+}
+
+.offer{
+    font-size: 30px;
+    padding: 30px 0px 30px 0px;
+    color:rgba(152, 14, 233, 0.973);
+    width: 70%; 
+}
+
+.cup-cakes{
+    width: 40%;
+}
+
+.cup-cake-icons{
+    height: 700px;
+    width: 300px;
+}
+
+.forth-container{
+    background-color: blueviolet;
+    width: 100%;
+}
+
+@media screen and (max-width:960px){
+    .forth-container-title{
+        font-size: 50px !important;
+    }
+}
+
+
+@media screen and (max-width:560px){
+    .forth-container-title{
+        font-size: 30px !important;
+    }
+}
+
+.forth-container-title{
+    font-size: 90px;
+    width: 90%;
+    color:white;
+    padding: 100px 0px 50px 0px; 
+    padding-left: 10% !important;
+}
+
+@media screen and (max-width:600px){
+    .map{
+        height: 300px !important;
+    }
+}
+
+.map{
+    width: 100%;
+    height: 600px;
+    padding:0px 15px 0px 15px;
+}
+
+@media screen and (max-width:960px){
+    .footer{
+        flex-direction: column;
+    }
+}
+
+.footer{
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    padding-left: 10%;
+}
+
+.title-rfiD3S-font-class-3{
+    font-size: 40px;
+    color: white;
+    width: 30%;
+}
+
+@media screen and (max-width:960px){
+    .mail{
+      width: 100% !important;
+      padding-top: 30px;
+    }
+}
+
+.mail{
+     width: 60%;
+     display: flex;
+     flex-direction: column;
+}
+
+@media screen and (max-width:960px){
+    .suger{
+      width: 100% !important;
+    }
+}
+
+.suger {
+    font-size: 20px;
+    color: white;
+    width: 70%;
+}
+
+
+
+.mail-id{
+     width: 70%;
+     display: flex;
+     padding-top: 20px;
+     justify-content: space-between;
+}
+
+.email{
+      width: 70%;
+      padding: 10px;
+      border: 2px solid white;
+      background-color: violet;
+      border-radius: 10px;
+      color: white;
+}
+
+.send{
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:960px){
+    .footer-one{
+        flex-direction: column;
+    }
+}
+
+.footer-one{
+    padding-left: 10%;
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+}
+
+@media screen and (max-width:960px){
+    .footer-three{
+        padding-left: 0% !important;
+    }
+}
+
+.footer-three{
+    padding-left: 18%;
+}
+
+.shoping{
+    font-size: 20px;
+    color: white;
+    padding: 10px 0px 10px 0px;
+}
+
+.end{
+    padding: 40px 0px 50px 0px;
+    padding-left: 10% !important;
+    font-size: 20px;
+    color: white;
+}
+
