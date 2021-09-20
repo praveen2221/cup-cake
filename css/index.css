@@ -221,6 +221,13 @@ body{
     color:white;
     width: 80%;
 }
+
+@media screen and (max-width:960px) {
+    .third-container{
+        min-height: 60vh !important;
+    }
+}
+
 .third-container{
     background-color: rgb(255, 250, 208);
     width: 100%;
